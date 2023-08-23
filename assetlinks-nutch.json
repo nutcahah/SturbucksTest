@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.applinkexample",
+    "sha256_cert_fingerprints":
+    ["A1:D0:2F:8E:0C:52:84:CB:39:FE:20:AE:6A:C9:CC:F5:2A:70:D1:EF:E0:33:23:92:92:E5:F6:EA:C5:52:39:DE"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://nongterz741.wixsite.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.applinkexample",
+    "sha256_cert_fingerprints":
+    ["A1:D0:2F:8E:0C:52:84:CB:39:FE:20:AE:6A:C9:CC:F5:2A:70:D1:EF:E0:33:23:92:92:E5:F6:EA:C5:52:39:DE"]
+  }
+}]
